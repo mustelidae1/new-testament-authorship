@@ -1,7 +1,7 @@
 ## New Testament Authorship
 The New Testament consists of twenty-seven distinct works drafted by a variety of authors. Of these authors, none is more important than Paul. He is responsible for writing thirteen of the New Testament letters addressed to various churches within the Roman Empire in the decades following the crucifixion of Jesus. However, most biblical scholars agree that Paul did not actually write at least half of the letters traditionally attributed to him.   
 
-This project uses machine learning to provide insight on the authorship of Pauline works in the New Testament. It currently uses logistic regression and a neural net to predict whether Greek texts were written by Paul. Further development is planned to refine the models and provide more accurate results. 
+This project uses machine learning to provide insight on the authorship of Pauline works in the New Testament. It currently analyzes frequency of words and parts of speech in Greek texts, then uses logistic regression and a neural net to model a binary classification problem and predict whether the texts were written by Paul. Further development is planned to refine the models and provide more accurate results. 
 
 ## How To Run 
 The project requires the [CLTK](http://cltk.org/), sklearn and tensorflow libraries, so ensure that these are installed before you begin.
